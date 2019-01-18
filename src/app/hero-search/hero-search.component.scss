@@ -9,27 +9,35 @@
     background-color: white;
     cursor: pointer;
     list-style-type: none;
+    margin-left: 42.5%;
   }
   
   .search-result li:hover {
-    background-color: #607D8B;
+    background-color: #f16f6f;
+  }
+  .search-result li {
+    background-color: #94d2e6;
   }
   
   .search-result li a {
-    color: #888;
+    color: #f16f6f;
     display: block;
     text-decoration: none;
+    background-color: #94d2e6;
   }
   
   .search-result li a:hover {
-    color: white;
+    color:#f16f6f;
+    background-color: #94d2e6;
   }
   .search-result li a:active {
-    color: white;
+    color: #f16f6f;
+    background-color: #94d2e6;
   }
   #search-box {
     width: 200px;
     height: 20px;
+    border: 1px solid gray;
   }
   
   
